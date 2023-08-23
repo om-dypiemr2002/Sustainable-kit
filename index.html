@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Product Landing Page</title>
+</head>
+<body>
+ <nav>
+   <div class="logo">Brand</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()"></span>;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Contact</a></li>
+       <button type="button"><a href="#">Login</a></button>
+     </ul>
+   </div>
+ </nav>
+   <!-- responsive side navbar -->
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="#">Home</a>
+     <a href="#">About</a>
+     <a href="#">Services</a>
+     <a href="#">Contact</a>
+     <a href="#"><button type="button">Login</button> </a>
+   </div>
+  
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>The Sustainable Starter Kit</h1>
+       <p>Contact us for receiving best and efficient products</p>
+       <button>PURCHASE</button>
+     </div>
+     <div class="column2">
+        <img src=https://static.wixstatic.com/media/ead566_a12b3feb70ae46139eee97c99f6ecebf~mv2.jpg/v1/fill/w_405,h_811,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/ead566_a12b3feb70ae46139eee97c99f6ecebf~mv2.jpg alt="image" width=550px height=700px >
+     </div>
+   </div>
+   <div class="product">
+    <p><h2>Product Details :</h2>
+        Thinking of starting your sustainable living journey but don’t know where to start from?  
+        
+        Look no further, The Earthist Starter Kit will help you kickstart your sustainable journey. This kit has : 
+        <br>
+        <ul>
+            <li></li>
+            <li>1.Compostable bamboo toothbrush 
+            </li>
+            <li>2.Neem comb </li>
+            <li>3.Neem Beard comb </li>
+            <li>4.A pack of steel straws ( 2 straight steel straw + 1 cleaner) </li>
+            <li>5.Copper tongue cleaner </li>
+            <li>6.Bamboo earbuds </li>
+        </ul>
+        
+      
+        All products in this Starter Kit are planet-friendly and do not pollute like plastic products do. These products are made of either compostable or recyclable material to ensure that they do not end up in a landfill like many plastic products. This eco-friendly/ zero waste kit is also a perfect gift for your loved ones, to inspire them to start living sustainably. 
+        
+        Why  
+        
+        Plastic products are toxic and can harm the environment. They are hardly recyclable and stay on the planet for 200-700 years. Even after that, they only break down into micro-plastics and kill marine life. The Earthist starter kit includes products which are made of natural material and are recyclable / biodegradable which makes it better choice for the planet and for you.  
+        
+        
+        </p>
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>
